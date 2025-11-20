@@ -5,10 +5,24 @@ h1{color: Green;}
          
           }
 
+b {
+  font-style: oblique;
+  font-style: italic;
+}
+
+h2{
+  font-size: 25px;
+}
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.content {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .navbalk {
@@ -30,11 +44,6 @@ body {
   transition: background-color 0.3s;
 }
 
-.content {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
 .white{
   color: white;
   align-items: center;
@@ -45,7 +54,3 @@ body {
   padding: 20;
 }
 
-b {
-  font-style: oblique;
-  font-style: italic;
-};
