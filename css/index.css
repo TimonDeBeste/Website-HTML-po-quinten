@@ -1,8 +1,7 @@
 h1{color: Green;}
        a  {
             text-decoration: none;
-            color:black;
-         
+            color:black;  
           }
 
 b {
@@ -28,9 +27,16 @@ body {
 
 }
 
+.titel{
+  font-size: 50px;
+}
+
 .content {
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-top: 0px;
+  background-color: white;
+  opacity: 90%;
 }
 
 .navbalk {
