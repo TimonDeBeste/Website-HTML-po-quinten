@@ -35,8 +35,8 @@ body {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 0px;
-  background-color: white;
-  opacity: 90%;
+  /* use rgba for semi-transparent background so child elements aren't affected */
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbalk {
@@ -60,7 +60,9 @@ body {
 
 .white{
   color: white;
+  display: flex;
   align-items: center;
+  gap: 8px;
 }
 
 .text{
