@@ -1,16 +1,23 @@
-h1{color: Green;}
-       a  {
-            text-decoration: none;
-            color:black;  
-          }
-
-b {
-  font-style: oblique;
-  font-style: italic;
+h1 {
+  color: green;
+  font-size: 30px;
 }
 
-h2{
+h2 {
   font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+b {
+  font-style: italic;
 }
 
 body {
@@ -21,10 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
   height: 100vh;
-
-
 }
 
 .titel{
@@ -35,7 +39,6 @@ body {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 0px;
-  /* use rgba for semi-transparent background so child elements aren't affected */
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -52,24 +55,7 @@ body {
   text-decoration: none;
   font-size: 20px;
   margin: 0;
-  padding: 10px 20px;
-  border: 5 solid black;
+  padding: 10px 20px; 
   background-color: rgb(8, 112, 8);
   transition: background-color 0.3s;
-}
-
-.white{
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.text{
-  margin: 20;
-  padding: 20;
-}
-
-.txt-box{
-  color: white;
 }
