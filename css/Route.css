@@ -6,7 +6,20 @@ a  {
 body {
   margin: 0;
   padding: 0;
-    
+  background-image:url("../images/mtb-utrechtseheuvelrug-pieter-van-leeuwen-hoge-vuursche.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.content {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 0px;
+  /* use rgba for semi-transparent background so child elements aren't affected */
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbalk {
