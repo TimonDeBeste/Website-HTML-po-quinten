@@ -1,10 +1,14 @@
 h1 {
   color: green;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+h3{
+  font-size: 30px;
 }
 
 p {
@@ -36,10 +40,11 @@ body {
 }
 
 .content {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 0px;
+  margin: 0 10vw 10vw;
+  padding: 24px;
+  box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.9);
+  min-height: calc(100vh - 60px - 10vw);
 }
 
 .navbalk {
